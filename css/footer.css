@@ -66,3 +66,21 @@
   #git{
     background-color:#f8f8f8;
   }
+
+  @media (max-width: 1024px) {
+   .footer__logo{
+    font-size: 22px;
+
+   }
+   .footer{
+    
+   }
+  }
+  
+  @media (max-width: 768px) {
+   
+  }
+  
+  @media (max-width: 480px) {
+   
+  }
