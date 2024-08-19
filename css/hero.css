@@ -17,6 +17,8 @@
     width: 120%;
     height: 100%;
     object-fit: contain;
+    /* background-color: red; */
+    margin: 0 -40px;
   }
   
   .hero-image__overlay {
