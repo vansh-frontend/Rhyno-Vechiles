@@ -96,15 +96,38 @@
     border-radius: 64px;
     cursor: pointer;
   }
+
+  
+  .popular-foods__button:hover{
+    width: fit-content;
+  
+    padding: 20px 30px;
+    margin: 80px auto 0;
+  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+  
+    border: none;
+    outline: none;
+    background: var(--secondary-color);
+    border-radius: 64px;
+    cursor: pointer;
+    background-color:  rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+
   
   .popular-foods__button img {
     width: 14px;
     height: 14px;
     object-fit: contain;
-  
-    margin-left: 21px;
+    margin: 0 28px;
   }
-  
+
   .popular-foods__card {
     padding: 38px;
     min-width: 260px;
