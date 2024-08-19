@@ -213,17 +213,25 @@ a {
     font-size: 40px;
     line-height: 60px;
   }
+   
+  .hero-image img{
+    /* background-color: red; */
+    margin: 0 -20px;
+  }
 
   .hero-content-info {
     padding: 32px;
   }
 
   .hero-content-info h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .hero-content-info p {
     margin: 32px 0;
+  }
+  .sushi__title{
+    font-size: 50px;
   }
 
   .hero-content__buttons {
