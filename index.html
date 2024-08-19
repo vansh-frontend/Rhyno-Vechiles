@@ -41,38 +41,22 @@
   <header>
     <nav class="header__nav">
       <div class="header__logo">
-        
-        <h4 data-aos="fade-down"></h4><a href="#" class="header-logo">
-            <img src="logo/logo.png" alt="Anon's logo" width="120" height="36">
-          </a>
-
+        <a href="#" class="header-logo">
+          <img src="logo/logo.png" alt="Anon's logo" width="120" height="36">
+        </a>
         <div class="header__logo-overlay"></div>
       </div>
       
-
-      <ul class="header__menu" data-aos="fade-down">
-        <li>
-          <a href="#menu"><b>Menu</b></a>
-        </li>
-        <li>
-          <a href="#Product"><b>Product</b> </a>
-        </li>
-        <li>
-          <a href="#Pre-book"><b>Pre-book</b></a>
-        </li>
-        <li>
-          <a href="#about-us"><b>About Us</b></a>
-        </li>
-        <li>
-          <img src="search.svg" alt="search" />
-        </li>
+      <ul class="header__menu" id="nav-menu">
+        <li><a href="#menu"><b>Menu</b></a></li>
+        <li><a href="#Product"><b>Product</b></a></li>
+        <li><a href="#Pre-book"><b>Pre-book</b></a></li>
+        <li><a href="#about-us"><b>About Us</b></a></li>
+        <li><img src="search.svg" alt="search" /></li>
       </ul>
-
-
-      <ul class="header__menu-mobile" data-aos="fade-down">
-        <li>
-          <img src="menu.svg" alt="search" />
-        </li>
+      
+      <ul class="header__menu-mobile" id="nav-menu-mobile">
+        <li><img src="menu.svg" alt="menu" id="menu-icon" onclick="showme()" /></li>
       </ul>
     </nav>
   </header>
@@ -583,7 +567,7 @@
 
   <!-- <script src="./script.js"></script> -->
   
-  <script src="sus.js" type="module"></script>
+  <script src="js.js" type="module"></script>
 </body>
 
 </html>
