@@ -6,7 +6,6 @@
   .header__logo {
     flex: 1;
     display: flex;
-  
     position: relative;
     padding: 20px;
   }
@@ -29,7 +28,7 @@
     font-family: var(--playfair-display);
     color: #fff;
     opacity: 0.8;
-  }
+  } 
   
   .header__menu, .header__menu-mobile {
     padding: 20px;
@@ -41,6 +40,8 @@
   
     list-style: none;
   }
+
+  
   
   .header__menu li {
     font-weight: 500;
@@ -58,6 +59,9 @@
     object-fit: contain;
   }
   
+  .header__logo img{
+    cursor: default;
+  }
   .header__menu-mobile {
     display: none;
     gap: 20px;
@@ -98,4 +102,18 @@
   gap: 20px;
 
   position: relative;
+}
+
+li a:hover{
+  color:  #b1454a;
+  text-decoration: underline;
+  text-underline-offset: 0.7rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+li a:active{
+  color:  #b1454a;
+  text-decoration: underline;
+  text-underline-offset: 0.7rem;
+  text-decoration-color: rgb(181, 181, 181);
+  transform: scale(0.97);
 }
